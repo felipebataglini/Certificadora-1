@@ -1,0 +1,5 @@
+IP address: febataglini.duckdns.org
+Port: 3306
+
+User: user
+Password: password
