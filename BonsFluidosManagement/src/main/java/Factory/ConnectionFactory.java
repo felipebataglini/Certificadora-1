@@ -13,8 +13,8 @@ import javax.swing.JOptionPane;
  */
 public class ConnectionFactory {
     private String url = "jdbc:mysql://febataglini.duckdns.org:3306/bfm";
-    private String user = "user";
-    private String password = "password";
+    private String user = "root";
+    private String password = "fellas";
     
     public Connection getConnection() {
         try {
