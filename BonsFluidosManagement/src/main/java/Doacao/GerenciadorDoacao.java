@@ -17,7 +17,7 @@ public class GerenciadorDoacao implements ActionListener {
     private DAODoacao daodoacao;
     private Doacao d;
   
-    public GerenciadorLocacao(){
+    public GerenciadorDoacao(){
         guidoacao = new GUIDoacao();
         guidoacao.addListener(this);
         daodoacao = new DAODoacao();

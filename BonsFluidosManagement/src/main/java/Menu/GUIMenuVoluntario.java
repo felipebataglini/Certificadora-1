@@ -48,7 +48,7 @@ public class GUIMenuVoluntario extends javax.swing.JFrame {
         jMenuBar1.add(jMenu2);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Menu - Funcionário");
+        setTitle("Menu - Voluntário");
         setMinimumSize(new java.awt.Dimension(400, 300));
 
         jPanel1.setBackground(new java.awt.Color(255, 204, 204));
@@ -57,7 +57,7 @@ public class GUIMenuVoluntario extends javax.swing.JFrame {
         JBTproduto.setFont(new java.awt.Font("Papyrus", 0, 12)); // NOI18N
         JBTproduto.setForeground(new java.awt.Color(102, 0, 102));
         JBTproduto.setText("Produto");
-        JBTproduto.setName("veiculo"); // NOI18N
+        JBTproduto.setName("produto"); // NOI18N
         JBTproduto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JBTprodutoActionPerformed(evt);
@@ -73,13 +73,13 @@ public class GUIMenuVoluntario extends javax.swing.JFrame {
         JBTescola.setFont(new java.awt.Font("Papyrus", 0, 12)); // NOI18N
         JBTescola.setForeground(new java.awt.Color(102, 0, 102));
         JBTescola.setText("Escola");
-        JBTescola.setName("cliente"); // NOI18N
+        JBTescola.setName("escola"); // NOI18N
 
         JBTdoacao.setBackground(new java.awt.Color(247, 255, 247));
         JBTdoacao.setFont(new java.awt.Font("Papyrus", 0, 12)); // NOI18N
         JBTdoacao.setForeground(new java.awt.Color(102, 0, 102));
         JBTdoacao.setText("Doação");
-        JBTdoacao.setName("locacao"); // NOI18N
+        JBTdoacao.setName("doacao"); // NOI18N
 
         JLabelMenu.setBackground(new java.awt.Color(255, 204, 204));
         JLabelMenu.setFont(new java.awt.Font("Papyrus", 1, 24)); // NOI18N

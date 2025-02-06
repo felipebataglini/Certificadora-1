@@ -39,11 +39,11 @@ public class GerenciadorLogin implements ActionListener{
                 switch(daologin.autenticaUsuario(l)){
                     case 1:
                         System.out.println("Administrador logado!");
-                        //new MenuAdministrador();
+                        new MenuAdministrador();
                         break;
                     case 2:
                         System.out.println("Voluntário logado!");
-                        //new MenuFuncionario();
+                        new MenuVoluntario();
                         break;
                     case 0:
                         JOptionPane.showMessageDialog(null, "Usuário ou senha não encontrado", "Aviso", JOptionPane.ERROR_MESSAGE);
